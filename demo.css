@@ -1,0 +1,59 @@
+header{
+    background-color:#BD513B;
+    color:white;
+    padding:10px;
+
+
+}
+ul{
+    background-color:#4444;
+    padding:1px;
+    list-style: none;
+}
+ul li{
+    float: right;
+    
+}
+li a{
+    color: black;
+    text-align: center;
+    padding:10px 20px;
+    display: block;
+
+    
+
+}
+ul li a:hover{
+    background-color:#E2C9C4
+
+}
+.heading1{
+    color: greenyellow;
+    background-color: green;
+}
+form{
+    display: grid;
+    gap:10px;
+    margin: auto;
+    max-width:300px ;
+}
+form{
+    text-align: left;
+    padding: 0px 10px;
+}
+input{
+    width:100%;
+    box-sizing: border-box;
+}
+.submitButton{
+    background-color: blue;
+    color:aquamarine;
+    border: none;
+    cursor:pointer;
+    padding:2px;
+
+}
+.submitButton:hover{
+    background-color: blueviolet;
+    color:aqua;
+}
